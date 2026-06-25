@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "_id": "user_student",
+      "username": "Providence Student",
+      "email": "student@providence.edu",
+      "password": "$2b$10$uWOaTX6pbf9VQEaXZladKeAHbI.3f5ZRrhOxv.b2GfOFvNmu3e.Ju",
+      "role": "client",
+      "profilePicture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=150",
+      "contactDetails": "WhatsApp: +91 9876543210",
+      "isBanned": false,
+      "createdAt": "2026-06-12T05:00:00.000Z"
+    },
+    {
+      "_id": "user_admin",
+      "username": "Providence Admin",
+      "email": "admin@providence.edu",
+      "password": "$2b$10$uWOaTX6pbf9VQEaXZladKeAHbI.3f5ZRrhOxv.b2GfOFvNmu3e.Ju",
+      "role": "admin",
+      "profilePicture": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=150",
+      "contactDetails": "Call: Admin Office Ext 104",
+      "isBanned": false,
+      "createdAt": "2026-06-12T05:00:00.000Z"
+    },
+    {
+      "_id": "user_8xwotiahc",
+      "username": "Rithuraj S",
+      "email": "rithuraj2006@gmail.com",
+      "password": "$2b$10$yAxBTGQHRNT9E2dQC2wQpuJFczT1hvRJLIptazTvb/WzO0cfSFZvu",
+      "role": "client",
+      "profilePicture": "",
+      "contactDetails": "Phone: +91 9495969798",
+      "isBanned": false,
+      "createdAt": "2026-06-06T13:59:13.279Z"
+    }
+  ],
+  "products": [
+    {
+      "_id": "product_study_lamp",
+      "title": "LED Study Lamp (Adjustable Brightness)",
+      "description": "Adjustable study lamp with 3 brightness modes. Perfect for late-night exam prep in the hostel. Used for 1 semester, excellent battery life.",
+      "price": 500,
+      "category": "Electronics",
+      "location": "Hostel Block 3 Reception",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?q=80&w=500",
+      "seller": "user_student",
+      "createdAt": "2026-06-12T05:01:00.000Z"
+    },
+    {
+      "_id": "product_cpp_book",
+      "title": "Data Structures & Algorithms in C++",
+      "description": "Textbook by Robert Lafore. Third Edition. Clean pages with minimal highlighting. Essential reference book for CS / IT engineering branches.",
+      "price": 240,
+      "category": "Books",
+      "location": "Central Library Handover Area",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=500",
+      "seller": "user_student",
+      "createdAt": "2026-06-12T05:02:00.000Z"
+    },
+    {
+      "_id": "product_stationary_set",
+      "title": "Classmate Notebooks (Pack of 5, Unused)",
+      "description": "Brand new Classmate single-line notebooks (172 pages). Unused leftovers from last semester. Selling the entire bundle together.",
+      "price": 120,
+      "category": "Stationery",
+      "location": "Main Campus Canteen",
+      "image": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?q=80&w=500",
+      "seller": "user_8xwotiahc",
+      "createdAt": "2026-06-12T05:03:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "_id": "order_dvk1wszxu",
+      "buyer": "user_admin",
+      "items": [
+        {
+          "product": "product_stationary_set",
+          "quantity": 1,
+          "price": 120
+        }
+      ],
+      "totalAmount": 120,
+      "shippingAddress": {
+        "fullName": "Rithuraj",
+        "addressLine": "fyyiliio",
+        "city": "Palakkad",
+        "postalCode": "678000",
+        "country": "India"
+      },
+      "paymentStatus": "Completed",
+      "createdAt": "2026-06-12T05:06:30.235Z"
+    },
+    {
+      "_id": "order_521ha6u7r",
+      "buyer": "user_student",
+      "items": [
+        {
+          "product": "product_study_lamp",
+          "quantity": 1,
+          "price": 350
+        }
+      ],
+      "totalAmount": 350,
+      "shippingAddress": {
+        "fullName": "jhgkh",
+        "addressLine": "nhgj",
+        "city": "kui",
+        "postalCode": "y7789",
+        "country": "India"
+      },
+      "paymentStatus": "Completed",
+      "createdAt": "2026-06-12T05:11:27.384Z"
+    }
+  ]
+}
